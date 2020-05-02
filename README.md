@@ -20,6 +20,7 @@ Originally from [rkalis/dotfiles](https://github.com/rkalis/dotfiles).
   * [Audacity](https://www.audacityteam.org)
   * [Microsoft Office](https://support.office.com/en-us/article/download-and-install-or-reinstall-office-2016-or-office-2013-7c695b06-6d1a-4917-809c-98ce43f86479)
 6. Login to applications, enter license keys, set preferences
+6a. Additional configuration files for manual configuration found in [misc/](https://github.com/plinders/dotfiles/tree/master/misc)
 
 ## Contents
 
