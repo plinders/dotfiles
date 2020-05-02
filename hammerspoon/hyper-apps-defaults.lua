@@ -8,9 +8,10 @@ return {
   { 'b', 'Safari' },            -- "B" for "Browser"
   { 'c', 'Discord' },           -- "C for "Chat"
   { 'd', 'Microsoft To Do' },   -- "D" for "Do!" ... or "Done!"
-  { 'e', 'Visual Studio Code' }, -- "E" for "Editor"
+  { 'e', 'Visual Studio Code' },-- "E" for "Editor"
   { 'f', 'Finder' },            -- "F" for "Finder"
-  { 'g', 'Mail' },       -- "G" for "Gmail"
+  { 'g', 'Mail' },              -- "G" for "Gmail"
   { 's', 'Spotify' },           -- "S" for "Slack"
-  { 't', 'Terminal' },             -- "T" for "Terminal"
+  { 't', 'Terminal' },          -- "T" for "Terminal"
+  { 'v', 'Connect VPN'}         -- "V" for "Connect VPN via Tunnelblick"
 }
