@@ -13,8 +13,10 @@ info "Installing Brewfile packages..."
 brew bundle
 success "Finished installing Brewfile packages."
 
-fnm use 10
-success "Switched to Node v10"
+fnm use 12
+success "Switched to Node v12"
+
+chmod +x rpkginstall
 
 find * -name "*.list" | while read fn; do
     cmd="${fn%.*}"
@@ -25,7 +27,12 @@ find * -name "*.list" | while read fn; do
         then continue
         fi
         substep_info "Installing $package..."
-        $cmd $package
+        if [[ $cmd == "R" ]];
+        then
+            ./pkginstall $package
+        else
+            $cmd $package
+        fi
     done < "$fn"
     success "Finished installing $1 packages."
 done

@@ -1,2 +1,7 @@
+glob
+jupyter-notebook
 pep8
 pylint
+numpy
+scipy
+matplotlib
