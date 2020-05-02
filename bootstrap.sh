@@ -30,7 +30,6 @@ fi
 git clone https://github.com/jasonrudolph/keyboard.git ~/.keyboard
 cd ~/.keyboard/scripts
 ./setup
-read -p success "Allow Hammerspoon & Karabiner in Accessibility"
 cd "$DIR"
 
 # Install all other packages 
@@ -38,4 +37,5 @@ find * -name "setup.sh" -not -wholename "packages*" | while read setup; do
     ./$setup
 done
 
-success "Finished installing Dotfiles"
+success "Finished installing Dotfiles."
+success "Do not forget to enable Hammerspoon and Karabiner."
