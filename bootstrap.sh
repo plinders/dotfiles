@@ -33,6 +33,7 @@ cd ~/.keyboard/scripts
 read -p success "Allow Hammerspoon & Karabiner in Accessibility"
 cd "$DIR"
 
+# Install all other packages 
 find * -name "setup.sh" -not -wholename "packages*" | while read setup; do
     ./$setup
 done

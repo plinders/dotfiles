@@ -23,9 +23,6 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/mas
 
 cp .zshrc ~/.zshrc
 
-# substep_info "Creating Visual Studio Code folders..."
-# mkdir -p "$DESTINATION"
-
 find * -maxdepth 0 -not -name "$(basename ${0})" -not -name ".zshrc" -type f | while read fn; do
     symlink "$SOURCE/$fn" "$DESTINATION/$fn"
 done

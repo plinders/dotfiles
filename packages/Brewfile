@@ -4,6 +4,7 @@ tap 'buo/cask-upgrade'
 tap 'Schniz/tap'
 
 cask '1password'
+cask 'adobe-creative-cloud'
 cask 'appcleaner'
 cask 'bettertouchtool'
 cask 'calibre'
