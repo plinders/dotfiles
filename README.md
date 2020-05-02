@@ -1,4 +1,8 @@
-# Dotfiles
+# PL Dotfiles
+
+Originally from https://github.com/rkalis/dotfiles
+
+
 
 For more information about dotfiles, I wrote these articles on my blog:
 * [Dotfiles: automating macOS system configuration](https://kalis.me/dotfiles-automating-macos-system-configuration/)
