@@ -34,6 +34,7 @@ cask 'zotero'
 
 brew 'automake'
 brew 'brew-cask-completion'
+brew 'coreutils'
 brew 'duti'
 brew 'ffmpeg'
 brew 'fnm'
