@@ -1,7 +1,7 @@
-tell application "Tunnelblick"
-	if get state of first configuration is "CONNECTED" then
-		disconnect (get name of first configuration where state is "CONNECTED")
-	else
-		connect (get name of first configuration)
-	end if
+tell application "Viscosity"
+    if the state of the first connection is "Connected" then
+        disconnect the first connection
+    else
+        connect the first connection
+    end if
 end tell

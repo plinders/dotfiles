@@ -1,0 +1,4 @@
+function repodir () {
+    REPO_BASE="~/repos"
+    echo REPO_BASE
+}
