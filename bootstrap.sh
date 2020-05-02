@@ -26,6 +26,13 @@ fi
 # Package control must be executed first in order for the rest to work
 ./packages/setup.sh
 
+# Keyboard settings
+git clone https://github.com/jasonrudolph/keyboard.git ~/.keyboard
+cd ~/.keyboard/scripts
+./setup
+read -p success "Allow Hammerspoon & Karabiner in Accessibility"
+cd "$DIR"
+
 find * -name "setup.sh" -not -wholename "packages*" | while read setup; do
     ./$setup
 done
